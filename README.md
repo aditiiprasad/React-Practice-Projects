@@ -18,14 +18,12 @@ This repository contains a collection of practice projects aimed at improving Re
 - 4. Start the development server: `npm start` for react and `npm run dev` for Vite
 
 ## Projects
-1. <a href="/React-Practice-Projects/01-Counter-Button/"> Counter Button</a>
-<img src="images/cb.png" height="180" />
-
-2. <a href="/React-Practice-Projects/02-Background-Changer/">Background Changer</a>
-<img src="images/bc.png" height="180" />
 
 | Projects   | Preview     |
 |-------------|-------------|
 | <a href="/React-Practice-Projects/01-Counter-Button/"> Counter Button</a> |<img src="images/cb.png" height="180" /> |
 | <a href="/React-Practice-Projects/02-Background-Changer/">Background Changer</a> | <img src="images/bc.png" height="180" />
  |
+
+ <!-- | Row 1 Col 1 | Row 1 Col 2 |
+| Row 2 Col 1 | Row 2 Col 2 | -->
