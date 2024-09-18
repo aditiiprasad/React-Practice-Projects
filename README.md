@@ -4,9 +4,9 @@ This repository contains a collection of practice projects aimed at improving Re
 
 ## Table of Contents
 
-- [Getting Started](#getting-started)
 - [Projects](#projects)
 - [Technologies Used](#technologies-used)
+- [Getting Started](#getting-started)
 - [Installation](#installation)
 - [Contributing](#contributing)
 - [License](#license)
