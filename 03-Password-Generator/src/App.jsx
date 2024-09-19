@@ -18,7 +18,7 @@ const copytoclipboard = useCallback(()=>{
 , [password])
 
 
-
+ // Password Generator
 
   const passwordGenerator =useCallback(()=>{
     let pass =""
@@ -36,16 +36,20 @@ const copytoclipboard = useCallback(()=>{
       pass += str.charAt(char)
     }
    setpassword(pass)
+},[length,number,Char,setpassword])
+useEffect(()=>{passwordGenerator()},[length,number,Char,passwordGenerator])
+  
+//STRUCTURE
+return (
 
-
-
-  },[length,number,Char,setpassword])
-
-  useEffect(()=>{passwordGenerator()},[length,number,Char,passwordGenerator])
-  return (
+  // MAIN CONTAINER
     <>
+    
     <div className='w-full max-w-md mx-auto shadow-md rounded-lg px-4 my-8 text-yellow-600 bg-green-900'>
+
     <div className='text-yellow-500 text-center font-extrabold text-2xl font-mono my-5'>Password Generator</div>
+    
+    {/* PASSWORD SHOWN HERE */}
     <div className="flex shadow rounded-lg overflow-hidden mb-4 ">
 
      < input 
@@ -57,6 +61,7 @@ const copytoclipboard = useCallback(()=>{
      ref={passwordRef}
      
      />
+
      <button
       className='outline-none bg-blue-700 text-white px-3 py-0.5 shrink-0 rounded-md'
       
@@ -67,7 +72,11 @@ const copytoclipboard = useCallback(()=>{
       COPY
      </button>
     </div>
+
+          
            <div className=" text-center flex flex-col justify-center items-center  font-mono text-sm gap-x-2">
+
+            {/* LENGTH */}
             <div className="flex items-center gap-x-1 my-4">
               <input
                type="range"
@@ -79,6 +88,8 @@ const copytoclipboard = useCallback(()=>{
                />
                <label>Length: {length}</label>
             </div>
+
+            {/* NUMBER */}
              <div className='flex items-center gap-x-1 my-4'>
              <input 
              type="checkbox"
@@ -91,6 +102,7 @@ const copytoclipboard = useCallback(()=>{
             <label htmlFor='numberInput'>Numbers</label>
              </div>
 
+            {/* CHARACTERS */}
              <div className='flex items-center gap-x-1 my-4'>
              <input 
              type="checkbox"
