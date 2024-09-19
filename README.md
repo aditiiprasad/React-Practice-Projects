@@ -24,5 +24,5 @@ This repository contains a collection of practice projects aimed at improving Re
 | <a href="01-Counter-Button/"> 1.Counter Button</a> |<img src="images/cb.png" height="180" /> |
 | <a href="02-Background-Changer/">2.Background Changer</a> | <img src="images/bc.png" height="180" />|
 
- <!-- | Row 1 Col 1 | Row 1 Col 2 |
+<!-- | Row 1 Col 1 | Row 1 Col 2 |
 | Row 2 Col 1 | Row 2 Col 2 | -->
