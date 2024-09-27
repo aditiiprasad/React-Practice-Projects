@@ -24,7 +24,7 @@ This repository contains a collection of practice projects aimed at improving Re
 | <a href="01-Counter-Button/"> 1.Counter Button</a> |<img src="images/cb.png" height="180" /> |
 | <a href="02-Background-Changer/">2.Background Changer</a> | <img src="images/bc.png" height="180" />|
 | <a href="03-Password-Generator/">3.Password Generator</a> |  <img src="images/pg.png" height="180" />|
-| <a href="04-currency-convertor">3.Currency Convertor</a> |  <img src="images/cc.png" height="180" />|
+| <a href="04-currency-convertor">4.Currency Convertor</a> |  <img src="images/cc.png" height="180" />|
 
 
 
