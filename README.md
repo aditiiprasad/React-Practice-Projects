@@ -2,7 +2,7 @@
 
 This repository contains a collection of practice projects aimed at improving React development skills. Each project covers different aspects of React, from basic components to advanced concepts such as state management, routing, hooks, and more.
 
- [<img src="https://cdn.iconscout.com/icon/free/png-256/free-react-logo-icon-download-in-svg-png-gif-file-formats--company-brand-world-logos-vol-4-pack-icons-282599.png?f=webp&w=256">](https://aditiiprasad.github.io/React-Practice-Projects/) <span style="color:red">&nbsp;_(Click on the logo to view my projects)_</span>
+ [<img src="https://cdn.iconscout.com/icon/free/png-256/free-react-logo-icon-download-in-svg-png-gif-file-formats--company-brand-world-logos-vol-4-pack-icons-282599.png?f=webp&w=256" width="50" height="50" style="border-radius: 10px;" target="_main">](https://aditiiprasad.github.io/React-Practice-Projects/) <span style="color:red">&nbsp;_(Click on the logo to view my projects)_</span>
 
 ## Table of Contents
 
